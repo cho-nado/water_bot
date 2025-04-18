@@ -1,0 +1,38 @@
+# Byte‑compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets
+.env
+
+# Logs
+*.log
+water_bot.log
+scripts/backup.log    # только лог, а сам скрипт в гите должен быть
+
+# Database dumps
+backups/              # папка относительная, без ведущего слэша
+
+# IDE
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# CI / coverage
+.pytest_cache/
+.mypy_cache/
+
+# Docker
+.dockerignore
